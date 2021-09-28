@@ -1,0 +1,40 @@
+body {
+  background-color: #6f0de9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #020631;
+  width: 400px;
+  min-height: 600px;
+  margin: 50px auto;
+  border-radius: 14px;
+  box-shadow: 3px 0px 30px #020631;
+}
+
+header {
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.title {
+  color: #ffffff;
+  text-align: center;
+}
+
+.title img {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.title h3 {
+  margin: 15px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
